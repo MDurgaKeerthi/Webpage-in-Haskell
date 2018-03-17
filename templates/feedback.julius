@@ -1,0 +1,32 @@
+
+$(function() {
+  $("##{rawJS opinionFormId}").submit(function(event) {
+    event.preventDefault();
+
+    var message = $("##{rawJS opinionTextareaId}").val();
+    if (!message) {
+      alert("Please fill out the feedback form first.");
+      return;
+    }
+
+    // Make an AJAX request to the server to create a new response
+    $.ajax({
+      url: '@{OpinionR}',
+      type: 'POST',
+      contentType: "application/json",
+      data: JSON.stringify({
+        message: message,
+      }),
+      success: function (data) {
+        var newNode = $("<li></li>");
+        newNode.text(data.message);
+        console.log(data);
+        $("##{rawJS opinionListId}").append(newNode);
+      },
+      error: function (data) {
+        console.log("Error creating response of feedback: " + data);
+      },
+    });
+
+  });
+});

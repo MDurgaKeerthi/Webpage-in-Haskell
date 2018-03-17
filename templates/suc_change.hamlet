@@ -1,0 +1,10 @@
+<div .ui.container>
+
+    <h2>
+      CHANGES ARE SUCCESSFULLY UPDATED, <strong><span class="username">#{userIdent user}</span></strong>!
+      
+    <h3>
+      Click here to see your <a href="@{AllowtransR}">details</a>    
+      
+    <h3>
+      Click here to make a <a href="@{TransactionR}">Transaction</a>  

@@ -1,0 +1,50 @@
+<div .container>
+    <div .bs-docs-section>
+        <div .row>
+            <div .col-lg-12>
+                <div .page-header>
+                    
+                    <h3>Our Services 
+                    <ul .list-group>
+
+                        <li .list-group-item>
+                          <p>  Enter your username in the login page which redirects you to password page where you have to enter your password if you are an existing customer or set new password if you don't have one.
+                          <p>  Once you are authenticated, you can change your details, make a transaction or pay your electricity, water, gas bills.       
+                    <h3> Steps to change your details    </h3>                       
+                        <li .list-group-item>
+                          <p>Enter your username in login page.
+                          <p>Enter your password in password page.
+                          <p>Click on the link "change details" in the profile page to which you will be redirected on entering password. 
+                          <p>Enter the details to which you want them to change in Details Page. 
+   
+   
+                    <h3> Steps to make a transaction  </h3>                            
+                        <li .list-group-item>
+                          <p>Enter your username in login page.
+                          <p>Enter your password in password page.
+                          <p>Click on the link "Transactions" in the profile page to which you will be redirected on entering password. 
+                          <p>Enter the appropriate details in Transaction Page.
+                          
+                    <h3> Steps to pay bills          </h3>                    
+                        <li .list-group-item>
+                          <p>You can pay electricity, water and gas bills. 
+                          <p>Enter your username in login page.
+                          <p>Enter your password in password page.
+                          <p>Click on the link "pay Bills" in the profile page to which you will be redirected on entering password. 
+                          <p>Enter the appropriate details in Bills Page :
+                             <p> Enter electricty for electricity bills in the bill name box.
+                             <p> Enter water for water bills in the bill name box.
+                             <p> Enter gas for gas bills in the bill name box.
+                          <p>Enter locality number.
+                          <p>Enter the bill amount.
+                     
+                    <h3> You can also give us your feedback at <a href="@{FeedbackR}">Feedback</a> page.  
+                    <h3> See the  <a href="@{FeedbackR}">Contact Us</a> page for contact details  
+                          
+                             
+                        
+   
+
+    
+
+   

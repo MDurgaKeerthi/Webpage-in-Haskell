@@ -1,0 +1,16 @@
+<div .ui.container>
+
+    <h2>
+      Oops! Please try refreshing!!
+      
+      
+      <div .bs-docs-section>
+
+        <div .row>
+            <div .col-lg-6>
+                <div .bs-callout bs-callout-info well>
+                    <form .form-horizontal method=post  enctype=#{formEnctype}>
+                        ^{formWidget}
+
+    
+

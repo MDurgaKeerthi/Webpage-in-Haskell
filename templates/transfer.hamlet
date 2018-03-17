@@ -1,0 +1,14 @@
+<div .ui.container>
+
+    <h1>
+      TRANSACTION SUCCESSFUL, <strong><span class="username">#{userIdent user}</span></strong>!
+      
+   <h3>
+      Click here to view your profile <a href="@{AllowtransR}">profile</a> 
+
+    <h3>
+      Click here to make another transaction <a href="@{TransactionR}">Transaction</a>  
+
+   <h3>
+      Click here to pay a bill <a href="@{PaybillR}">Paybill</a> 
+ 

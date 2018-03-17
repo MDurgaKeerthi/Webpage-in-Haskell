@@ -1,0 +1,24 @@
+User
+    ident Text
+    password Int Maybe
+    balance Int Maybe
+    name Text Maybe
+    age Int Maybe
+    UniqueUser ident
+    amt1 Int Maybe
+    amt2 Int Maybe
+    amt3 Int Maybe
+    id1 Text Maybe
+    id2 Text Maybe
+    id3 Text Maybe
+    count Int
+    deriving Typeable
+    deriving Show
+
+Opinion json          -- Adding "json" causes ToJSON and FromJSON instances to be derived.
+    message Text
+    userId UserId Maybe
+    deriving Eq
+    deriving Show
+
+ -- By default this file is used in Model.hs (which is imported by Foundation.hs)

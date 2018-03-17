@@ -1,0 +1,14 @@
+<div .ui.container>
+
+    <h2>Access granted, <strong><span class="username">#{userIdent user}</span></strong>!</h2>
+      
+    <h3>Click <a href="@{TransactionR}">here</a> to make a transaction.  
+    <h3>Click <a href="@{PaybillR}">here</a> to pay your electricity, water or gas bills. 
+    <h3>Click <a href="@{DetailsR}">here</a> to update your profile.
+    <hr>
+    <h3><u>Your Details</u>
+           
+           
+           
+    
+    

@@ -1,0 +1,39 @@
+/static StaticR Static appStatic
+/auth   AuthR   Auth   getAuth
+
+/ HomeR GET POST
+
+/opinion OpinionR POST
+
+/profile ProfileR GET POST
+
+/profile/#Int SetpasswordR GET
+
+/checkpassword/#Int CheckpasswordR GET
+
+/allowtrans AllowtransR GET
+
+/tryagain TryagainR GET
+
+/transaction TransactionR GET POST
+
+/suc_trans Suc_transR GET
+
+/suc_change Suc_changeR GET
+
+/details/#Int/#Text/#Int ChangeR GET
+
+/details DetailsR GET POST
+
+/feedback FeedbackR GET POST
+
+/contact ContactR GET
+
+/paybill PaybillR GET POST
+
+/paybill/#Text/#Int/#Int CheckEqualR GET
+
+/suc_bill Suc_billR GET
+
+/instructions InstructionsR GET
+

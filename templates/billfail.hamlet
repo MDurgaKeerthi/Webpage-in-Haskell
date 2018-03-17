@@ -1,0 +1,7 @@
+<div .ui.container>
+
+    <h1>
+      BILL PAYMENT FAILED!
+    <h2> Invalid deatils.
+    <h2>
+      Click here to try again <a href="@{PaybillR}">Paybill</a> 

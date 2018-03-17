@@ -1,0 +1,20 @@
+<div .ui.container>
+
+    <h1>
+      Welcome! You can now pay the bill.
+
+      <div .bs-docs-section>
+
+        <div .row>
+            <div .col-lg-6>
+                <div .bs-callout bs-callout-info well>
+                    <form .form-horizontal method=post action=@{PaybillR} enctype=#{formEnctype}>
+                        ^{formWidget}
+
+                        <button .btn.btn-primary type="submit">
+                            Submit!
+
+<hr>
+            
+
+
